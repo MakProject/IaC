@@ -1,0 +1,50 @@
+all:
+  hosts:
+    publicEC2-1:
+      ansible_host: 10.0.1.93
+      ansible_user: ubuntu
+      ansible_ssh_private_key_file: Devops-AWS.pem
+
+    publicEC2-2:
+      ansible_host: 10.0.2.142
+      ansible_user: ubuntu
+      ansible_ssh_private_key_file: Devops-AWS.pem
+
+    privateEC2-1:
+      ansible_host: 10.0.3.59
+      ansible_user: ubuntu
+      ansible_ssh_private_key_file: Devops-AWS.pem
+
+    privateEC2-2:
+      ansible_host: 10.0.4.199
+      ansible_user: ubuntu
+      ansible_ssh_private_key_file: Devops-AWS.pem
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
